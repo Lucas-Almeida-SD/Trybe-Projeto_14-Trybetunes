@@ -52,10 +52,10 @@ class Login extends React.Component {
       );
     }
     if (login === true) {
-      return (<Redirect to="/search" />);
+      return (<Redirect to="/Trybe-Projeto_14-Trybetunes/search" />);
     }
   }
-
+ 
   render() {
     const { name, isBtnDisabled } = this.state;
     const { handleChange, handleClick, renderLoadScreen } = this;
