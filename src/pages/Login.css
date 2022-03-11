@@ -1,0 +1,107 @@
+.login-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.login-form-section {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+  width: 400px;
+}
+
+.login-form-section .img-div {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  width: 16%;
+}
+
+.login-form-section .img-div img {
+  width: 100%;
+}
+
+.login-form-section h1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Akaya Telivigala , cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.login-form-section h1 .trybe {
+  margin-right: 50px;
+}
+
+.login-form-section h1 .tunes {
+  margin-left: 50px;
+}
+
+.login-form-section form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-form-section form input {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-family: Fuzzy Bubbles , cursive;
+  font-size: 16px;
+  margin-bottom: 8px;
+  outline: none;
+  padding: 2px;
+  width: 60%;
+}
+
+.login-form-section form input:focus {
+  outline: 2px solid #c2dbfd;
+}
+
+.login-form-section form button {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px black;
+  color: white;
+  font-family: Acme , sans-serif;
+  font-size: 16px;
+  padding: 4px 0;
+  width: 30%;
+}
+
+.login-form-section form button:enabled {
+  background-color: rgb(181, 105, 162);
+  cursor: pointer;
+}
+
+.login-form-section form button:disabled {
+  background-color: rgb(200, 200, 200);
+}
+
+.login-form-section form button:enabled:hover {
+  transform: scale(1.1);
+}
+
+
+.login-form-section .carregando-div {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  padding: 4px 0;
+}
+
+.login-form-section .carregando-div .carregando-login {
+  font-family: Alfa Slab One , cursive;
+}

@@ -1,0 +1,86 @@
+:root {
+
+  --cinza2: rgb(40, 42, 47);
+
+}
+
+.logo-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.logo-section .logo-image-div {
+  width: 180px;
+}
+
+.logo-section .logo-image-div img {
+  width: 100%;
+}
+
+.logo-section .perfil-div {
+  align-items: center;
+  background-color: var(--cinza2);
+  border-radius: 48px;
+  color: white;
+  display: flex;
+  padding: 8px;
+  width: 200px;
+}
+
+.logo-section .perfil-div img {
+  border-radius: 50%;
+  max-width: 25%;
+}
+
+.logo-section .perfil-div p {
+  font-family: Fuzzy Bubbles , cursive;
+  height: 20px;
+  margin-left: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 120px;
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links-section a {
+  border-radius: 8px;
+  display: flex;
+  text-decoration: none;
+  width: 33%;
+}
+
+.links-section .selected:enabled {
+  background-color: rgb(231, 85, 110);
+}
+
+.links-section .not-selected:enabled {
+  background-color: rgb(185, 44, 169);
+}
+
+.links-section button {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px black;
+  color: black;
+  font-family: Acme , sans-serif;
+  font-size: 20px;
+  padding: 8px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.links-section button:disabled {
+  background-color: rgb(200, 200, 200);
+  color: rgb(100, 100, 100);
+}
+
+.links-section button:hover:enabled {
+  cursor: pointer;
+  transform: translateY(-4px);
+}

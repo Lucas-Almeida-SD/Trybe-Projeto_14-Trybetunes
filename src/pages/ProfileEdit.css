@@ -1,0 +1,120 @@
+.profile-edit-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.profile-edit-section .profile-edit-form {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px black;
+  display: flex;
+  flex-direction: column;
+  min-height: 530px;
+  padding: 16px 24px;
+  width: 350px;
+}
+
+.profile-edit-form div {
+  margin-bottom: 18px;
+}
+
+.profile-edit-form .image-div {
+  text-align: center;
+}
+
+.profile-edit-form .image-div img {
+  border-radius: 50%;
+  box-shadow: 0 0 4px black;
+  height: 120px;
+  width: 120px;
+}
+
+.profile-edit-form .image-div img:hover {
+  cursor: pointer;
+}
+
+.profile-edit-form .btn-image-input {
+  display: none;
+}
+
+.profile-edit-form .name-div, .profile-edit-form .email-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-edit-form .description-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-edit-form label {
+  font-family: Akaya Telivigala , cursive;
+  font-size: 28px;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.profile-edit-form input {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-family: Fuzzy Bubbles , cursive;
+  font-size: 16px;
+  outline: none;
+  padding: 4px;
+  width: 100%;
+}
+
+.profile-edit-form input:focus {
+  outline: 2px solid rgb(231, 85, 110);
+}
+
+.profile-edit-form textarea {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-family: Fuzzy Bubbles , cursive;
+  font-size: 16px;
+  margin-bottom: 8px;
+  outline: none;
+  padding: 4px;
+  resize: none;
+  width: 100%;
+}
+
+.profile-edit-form textarea:focus {
+  outline: 2px solid rgb(231, 85, 110);
+}
+
+.profile-edit-form .save-btn-div {
+  text-align: center;
+}
+
+.profile-edit-form .save-btn-div button {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 4px black;
+  color: white;
+  font-family: Acme , sans-serif;
+  padding: 8px 0;
+  text-align: center;
+  width: 100px;
+}
+
+.profile-edit-form .save-btn-div button:enabled {
+  background-color: rgb(185, 44, 169);
+}
+
+.profile-edit-form .save-btn-div button:disabled {
+  background-color: rgb(200, 200, 200);
+}
+
+.profile-edit-form .save-btn-div button:enabled:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.profile-edit-section .carregando-profile-edit {
+  font-family: Alfa Slab One , cursive;
+  font-size: 40px;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+.favorites-section {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.favorites-section .favorite-musics-title {
+  font-family: Yatra One , cursive;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 20px 0 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.favorites-section .music-card {
+  margin: 8px 20px;
+  width: 40%;
+}
+
+.carregando-favorites {
+  font-family: Alfa Slab One , cursive;
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.no-favorites-section {
+  font-family: Alfa Slab One , cursive;
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
+}

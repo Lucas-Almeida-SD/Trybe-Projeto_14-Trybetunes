@@ -1,0 +1,79 @@
+.result-found {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 0 5%;
+}
+
+.result-found h2 {
+  font-family: Yatra One , cursive;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+
+.result-found h2 span {
+  font-weight: 800;
+}
+
+.result-found .albums-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.result-found .albums-section a {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px black;
+  margin: 16px;
+  padding: 8px;
+  text-decoration: none;
+  width: 15%;
+}
+
+.result-found .albums-section a:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.result-found .albums-section a .album {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.albums-section .album .image-div, .albums-section .album .image-div img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.albums-section .album p {
+  color: black;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.albums-section .album .album-name {
+  font-family: Josefin Sans , sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.albums-section .album .artist-name {
+  font-family: Josefin Sans , sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.result .no-result {
+  font-family: Alfa Slab One , cursive;
+  font-size: 28px;
+  margin-top: 30px;
+  text-align: center;
+}

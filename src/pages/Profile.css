@@ -1,0 +1,68 @@
+.profile-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.profile-section .profile {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px black;
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  padding: 16px 24px;
+  width: 350px;
+}
+
+.profile-section .profile .profile-image-div {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.profile-section .profile .profile-image-div img {
+  border-radius: 50%;
+  box-shadow: 0 0 4px black;
+  width: 40%;
+}
+
+.profile-section .profile .profile-image-div a {
+  align-self: flex-end;
+  background-color: rgb(185, 44, 169);
+  border-radius: 4px;
+  box-shadow: 0 0 4px black;
+  color: white;
+  font-family: Acme , sans-serif;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.profile-section .profile .profile-image-div a:hover {
+  transform: scale(1.1);
+}
+
+.profile-section .profile p {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.profile-section .profile p span:nth-child( 1 ) {
+  font-family: Akaya Telivigala , cursive;
+  font-size: 28px;
+  word-wrap: break-word;
+}
+
+.profile-section .profile p span:nth-child( 2 ) {
+  font-family: Fuzzy Bubbles , cursive;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+.profile-section .carregando-profile {
+  font-family: Alfa Slab One , cursive;
+  font-size: 40px;
+  text-align: center;
+}
