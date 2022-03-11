@@ -26,7 +26,7 @@ class App extends React.Component {
   }
 
   changePage(page) {
-    const pageName = page.split('/')[1];
+    const pageName = page.split('/')[2];
     const { selectedPage } = this.state;
     this.setState({
       selectedPage: pageName,

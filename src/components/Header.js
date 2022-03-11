@@ -62,7 +62,7 @@ class Header extends React.Component {
           </div>
         </section>
         <section className="links-section">
-          <Link to="/search" data-testid="link-to-search">
+          <Link to="/Trybe-Projeto_14-Trybetunes/search" data-testid="link-to-search">
             <button
               type="button"
               className={ pesquisa }
@@ -72,7 +72,7 @@ class Header extends React.Component {
               Pesquisa
             </button>
           </Link>
-          <Link to="/favorites" data-testid="link-to-favorites">
+          <Link to="/Trybe-Projeto_14-Trybetunes/favorites" data-testid="link-to-favorites">
             <button
               type="button"
               className={ favoritas }
@@ -82,7 +82,7 @@ class Header extends React.Component {
               Favoritas
             </button>
           </Link>
-          <Link to="/profile" data-testid="link-to-profile">
+          <Link to="/Trybe-Projeto_14-Trybetunes/profile" data-testid="link-to-profile">
             <button
               type="button"
               className={ perfil }
