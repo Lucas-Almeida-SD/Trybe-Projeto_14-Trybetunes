@@ -5,6 +5,9 @@ import './Results.css';
 
 class Results extends React.Component {
   renderResult(artista, albums) {
+    if (albums === 'erro') {
+      return (<p className="erro">Ops, ocorreu um erro. Tente novamente!</p>);
+    }
     if (albums.length > 0) {
       return (
         <section className="result-found">
@@ -18,7 +21,7 @@ class Results extends React.Component {
               <Link
                 key={ element.collectionId }
                 data-testid={ `link-to-album-${element.collectionId}` }
-                to={ `/album/${element.collectionId}` }
+                to={ `/Trybe-Projeto_14-Trybetunes/album/${element.collectionId}` }
               >
                 <div className="album">
                   <div className="image-div">

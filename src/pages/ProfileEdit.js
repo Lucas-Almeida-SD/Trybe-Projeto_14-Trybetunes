@@ -113,7 +113,7 @@ class ProfileEdit extends React.Component {
   renderRedirect() {
     const { redirect } = this.state;
     if (redirect) {
-      return <Redirect to="/profile" />;
+      return <Redirect to="/Trybe-Projeto_14-Trybetunes/profile" />;
     }
   }
 

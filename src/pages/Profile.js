@@ -33,7 +33,7 @@ class Profile extends React.Component {
         <section className="profile">
           <div className="profile-image-div">
             <img data-testid="profile-image" src={ image } alt={ name } />
-            <Link to="/profile/edit">Editar perfil</Link>
+            <Link to="/Trybe-Projeto_14-Trybetunes/profile/edit">Editar perfil</Link>
           </div>
           <p className="name">
             <span>Nome:</span>
