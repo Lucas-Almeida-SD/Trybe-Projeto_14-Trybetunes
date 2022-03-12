@@ -10,26 +10,26 @@
   box-shadow: 0 0 8px black;
   display: flex;
   flex-direction: column;
-  min-height: 500px;
+  min-height: 520px;
   padding: 16px 24px;
   width: 350px;
 }
 
 .profile-section .profile .profile-image-div {
   display: flex;
-  justify-content: space-between;
-  padding-right: 20px;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 
 .profile-section .profile .profile-image-div img {
   border-radius: 50%;
   box-shadow: 0 0 4px black;
-  width: 40%;
+  height: 120px;
+  width: 120px;
 }
 
 .profile-section .profile .profile-image-div a {
-  align-self: flex-end;
   background-color: rgb(185, 44, 169);
   border-radius: 4px;
   box-shadow: 0 0 4px black;
@@ -37,6 +37,7 @@
   font-family: Acme , sans-serif;
   padding: 8px 16px;
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .profile-section .profile .profile-image-div a:hover {
@@ -65,4 +66,33 @@
   font-family: Alfa Slab One , cursive;
   font-size: 40px;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .profile-section .carregando-profile {
+    font-size: 30px; 
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profile-section .profile {
+    min-height: 400px;
+    width: 300px;
+  }
+
+  .profile-section .profile .profile-image-div a {
+    font-size: 12px;
+  }
+
+  .profile-section .profile p span:nth-child( 1 ) {
+    font-size: 22px;
+  }
+  
+  .profile-section .profile p span:nth-child( 2 ) {
+    font-size: 14px;
+  }
+
+  .profile-section .carregando-profile {
+    font-size: 24px; 
+  }
 }

@@ -14,7 +14,7 @@
   margin-right: 16px;
   outline: none;
   padding: 4px;
-  width: 30%;
+  width: 40%;
 }
 
 .search-div .input-div input:focus {
@@ -29,7 +29,7 @@
   font-family: Acme , sans-serif;
   font-size: 16px;
   padding: 4px 0;
-  width: 10%;
+  width: 15%;
 }
 
 .search-div .input-div button:enabled {
@@ -52,4 +52,31 @@
   font-size: 40px;
   margin-top: 50px;
   text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .search-div .input-div input {
+    font-size: 14px;
+  }
+  .search-div .input-div button {
+    font-size: 12px;
+  }
+
+  .search-div .carregando-search {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .search-div .input-div input {
+    font-size: 12px;
+  }
+
+  .search-div .input-div button {
+    font-size: 10px;
+  }
+
+  .search-div .carregando-search {
+    font-size: 24px;
+  }
 }

@@ -1,7 +1,7 @@
 .favorites-section {
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   padding: 30px 0;
 }
@@ -17,7 +17,7 @@
 
 .favorites-section .music-card {
   margin: 8px 20px;
-  width: 40%;
+  width: 60%;
 }
 
 .carregando-favorites {
@@ -32,4 +32,28 @@
   font-size: 40px;
   margin-top: 50px;
   text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .carregando-favorites {
+    font-size: 30px;
+  }
+
+  .no-favorites-section {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .favorites-section .music-card {
+    width: 80%;
+  }
+
+  .carregando-favorites {
+    font-size: 24px;
+  }
+
+  .no-favorites-section {
+    font-size: 18px;
+  }
 }

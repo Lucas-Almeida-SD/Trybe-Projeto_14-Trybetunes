@@ -31,7 +31,8 @@
 
 .logo-section .perfil-div img {
   border-radius: 50%;
-  max-width: 25%;
+  height: 46px;
+  width: 46px;
 }
 
 .logo-section .perfil-div p {

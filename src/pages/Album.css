@@ -28,6 +28,7 @@
 
 .musics-result .album-selected .album-div h2 {
   font-family: Josefin Sans , sans-serif;
+  text-align: center;
   font-size: 28px;
   font-weight: 900;
   margin: 8px 0;
@@ -36,18 +37,19 @@
 
 .musics-result .album-selected .album-div h3 {
   font-family: Josefin Sans , sans-serif;
+  text-align: center;
   font-size: 20px;
   font-weight: 600;
   padding: 0 4px;
 }
 
 .musics-result .music-card-section {
-  width: 60%;
+  width: 80%;
 }
 
 .musics-result .music-card {
   margin-bottom: 16px;
-  width: 70%;
+  width: 90%;
 }
 
 .carregando-album {
@@ -55,4 +57,61 @@
   font-size: 40px;
   margin-top: 50px;
   text-align: center;
+}
+
+.erro {
+  font-family: Alfa Slab One , cursive;
+  font-size: 24px;
+  margin-top: 30px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .musics-result .album-selected .album-div h2 {
+    font-size: 18px;
+  }
+
+  .musics-result .album-selected .album-div h3 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .musics-result .album-selected .album-div h2 {
+    font-size: 14px;
+  }
+
+  .musics-result .album-selected .album-div h3 {
+    font-size: 12px;
+  }
+
+  .carregando-album {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .musics-result {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .musics-result .album-selected {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 50%;
+  }
+
+  .musics-result .music-card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carregando-album {
+    font-size: 24px;
+  }
 }

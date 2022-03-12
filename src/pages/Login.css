@@ -105,3 +105,14 @@
 .login-form-section .carregando-div .carregando-login {
   font-family: Alfa Slab One , cursive;
 }
+
+@media screen and (max-width:400px) {
+  .login-form-section {
+    width: 300px;
+  }
+
+  .login-form-section .img-div {
+    right: 60px;
+    top: 40px;
+  }
+}

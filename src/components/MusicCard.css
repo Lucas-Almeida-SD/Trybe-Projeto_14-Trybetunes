@@ -1,7 +1,7 @@
 .music-card {
   align-items: center;
   background-color: rgb(0, 0, 0, 0.8);
-  border-radius: 50px;
+  border-radius: 80px;
   box-shadow: 0 0 4px black;
   color: white;
   display: flex;
@@ -52,9 +52,9 @@
 
 .music-card .favorite-checkbox label {
   align-items: center;
+  justify-content: center;
   display: flex;
   font-size: 24px;
-  padding-left: 12px;
 }
 
 .music-card .favorite-checkbox svg:hover {
@@ -65,4 +65,49 @@
   font-family: Alfa Slab One , cursive;
   font-size: 12px;
   font-weight: 100;
+}
+
+@media screen and (max-width: 900px) {
+  .music-card .audio-track audio {
+    height: 30px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .music-card .audio-track audio {
+    height: 20px;
+  }
+
+  .music-card .audio-track span {
+    font-size: 14px;
+  }
+
+  .music-card .favorite-checkbox label {
+    font-size: 18px;
+  }
+
+  .music-card .favorite-checkbox .carregando-music-card {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .music-card .audio-track span {
+    font-size: 12px;
+  }
+
+  .music-card .favorite-checkbox label {
+    font-size: 16px;
+  }
+
+  .music-card .favorite-checkbox .carregando-music-card {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .music-card .audio-track {
+    width: 90%;
+  }
 }

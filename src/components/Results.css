@@ -32,7 +32,7 @@
   margin: 16px;
   padding: 8px;
   text-decoration: none;
-  width: 15%;
+  width: 20%;
 }
 
 .result-found .albums-section a:hover {
@@ -82,5 +82,36 @@
   font-family: Alfa Slab One , cursive;
   font-size: 24px;
   margin-top: 30px;
+  padding: 0 20px;
   text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .albums-section .album .album-name {
+    font-size: 14px;
+  }
+
+  .albums-section .album .artist-name {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .result-found .albums-section a {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .result-found .albums-section a {
+    width: 30%;
+  }
+
+  .albums-section .album .album-name {
+    font-size: 12px;
+  }
+
+  .albums-section .album .artist-name {
+    font-size: 10px;
+  }
 }

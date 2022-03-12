@@ -40,6 +40,9 @@ class Album extends React.Component {
   renderMusics() {
     const { musics, awaitGetFavMusics, favoriteMusics } = this.state;
     const { getFavoriteMusic } = this;
+    if (musics === 'erro') {
+      return (<p className="erro">Ops, ocorreu um erro. Tente novamente!</p>);
+    }
     if (musics && !awaitGetFavMusics) {
       const { artworkUrl100, artistName, collectionName } = musics[0];
       const favoriteTrackIds = favoriteMusics.map((element) => element.trackId);
