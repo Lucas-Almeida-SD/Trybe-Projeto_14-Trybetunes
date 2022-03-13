@@ -32,7 +32,7 @@ class Profile extends React.Component {
       return (
         <section className="profile">
           <div className="profile-image-div">
-            <img data-testid="profile-image" src={ image } alt={ name } />
+            <div style={{ backgroundImage: `url(${ image })`}}></div>
             <Link to="/Trybe-Projeto_14-Trybetunes/profile/edit">Editar perfil</Link>
           </div>
           <p className="name">

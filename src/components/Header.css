@@ -29,10 +29,17 @@
   width: 200px;
 }
 
-.logo-section .perfil-div img {
+.logo-section .perfil-div div {
+  background-size: cover;
   border-radius: 50%;
   height: 46px;
   width: 46px;
+}
+
+.logo-section .perfil-div .carregando-user {
+  display: flex;
+  align-items: center;
+  width: auto;
 }
 
 .logo-section .perfil-div p {

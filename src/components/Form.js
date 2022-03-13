@@ -22,7 +22,11 @@ class Form extends React.Component {
     return (
       <form method="get" className="profile-edit-form">
         <div className="image-div">
-          <img src={ image } alt={ name } aria-hidden="true" onClick={ clickImage } />
+          <div
+            style={{ backgroundImage: `url(${ image })`}}
+            aria-hidden="true"
+            onClick={ clickImage }
+          />
         </div>
         <input
           className="btn-image-input"

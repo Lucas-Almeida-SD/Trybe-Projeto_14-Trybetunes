@@ -22,7 +22,8 @@
   width: 100%;
 }
 
-.profile-section .profile .profile-image-div img {
+.profile-section .profile .profile-image-div div {
+  background-size: cover;
   border-radius: 50%;
   box-shadow: 0 0 4px black;
   height: 120px;

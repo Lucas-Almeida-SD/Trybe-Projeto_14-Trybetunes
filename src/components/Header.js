@@ -42,6 +42,7 @@ class Header extends React.Component {
       );
     }
     return (
+
       <p data-testid="header-user-name">{name}</p>
     );
   }
@@ -56,8 +57,8 @@ class Header extends React.Component {
           <div className="logo-image-div">
             <img src={ logoTrybetunes } alt="Trybetunes Logo" />
           </div>
-          <div className="perfil-div">
-            <img src={ image } alt="perfil" />
+          <div className="perfil-div" >
+            <div style={{ backgroundImage: `url(${ image })`}}></div>
             {renderLoadScreen()}
           </div>
         </section>

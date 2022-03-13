@@ -20,17 +20,19 @@
 }
 
 .profile-edit-form .image-div {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.profile-edit-form .image-div img {
+.profile-edit-form .image-div div {
+  background-size: cover;
   border-radius: 50%;
   box-shadow: 0 0 4px black;
   height: 120px;
   width: 120px;
 }
 
-.profile-edit-form .image-div img:hover {
+.profile-edit-form .image-div div:hover {
   cursor: pointer;
 }
 

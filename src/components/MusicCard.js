@@ -68,7 +68,7 @@ class MusicCard extends React.Component {
           <img src={ artworkUrl100 } alt={ trackName } />
         </div>
         <div className="audio-track">
-          <audio data-testid="audio-component" src={ previewUrl } controls>
+          <audio data-testid="audio-component" src={ previewUrl } controls >
             <track kind="captions" />
           </audio>
           <span>{trackName}</span>
